@@ -1,0 +1,110 @@
+.You {
+    position:absolute;
+    top:80px;
+    left:70px;
+    z-index:2;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    height: 1200px;
+    width:80%;
+}
+
+/* First parent divider starts here */
+.TP1 {
+    display:flex;
+}
+/* First parent divider ends here */
+
+/* Header 1 starts here */
+.Header1 {
+    color: white;
+    font-family: Verdana;
+    font-size: 33px;
+    width:100%;
+    font-weight: bold;
+}
+/* Header 1 ends here */
+
+/* First parent divider child 1 starts here */
+.TP1C1 {
+    margin-left: 20px;
+}
+
+.ComImage {
+    width:160px;
+    height: 160px;
+    border-radius: 160px;
+    margin-right: 15px;
+}
+
+/* .TP1C2 {
+
+} */
+.youpara1 {
+    color:rgba(187, 177, 177, 0.856);  
+    margin-top: 10px;  
+    margin-left: 0%;
+}
+
+.YouB1 {
+    background-color: rgb(37, 35, 35);
+    padding:10px;
+    border-radius: 20px;   
+    margin-top: 12px;   
+    border:0px solid black;
+    margin-right: 10px;
+}
+.youpara2 {
+    color:white;
+    display: inline;    
+    margin-left: 5px;
+}
+
+.YouB2 {
+    background-color: rgb(37, 35, 35);
+    padding:10px;
+    border-radius: 20px;
+    border:0px solid black;
+}
+.youpara3 {
+    color:white;
+    display: inline;
+    margin-left: 5px;
+}
+
+.Footer {
+    margin-top: 50px;
+}
+
+.Footer-header {
+    color:white;
+    font-family: Verdana;
+}
+
+.Footer-paragraph {
+    color:rgba(187, 177, 177, 0.856);
+    font-family: Verdana;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* First parent divider child 1 ends here */
+
+.YP1 {
+    display:flex;
+    width: 100%;
+}
+
+.videoTub1 {
+    width:50%;
+}
+
+.youBT4 {
+    border: 1px solid rgb(92, 89, 89);
+    border-radius: 30px;
+    padding:10px;
+}
+.youBT4:hover{
+    background-color: rgb(46, 44, 44);
+}

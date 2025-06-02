@@ -1,0 +1,13 @@
+.Shorts{
+    position:fixed;
+    top:70px;
+    left:80px;
+    height:1000px;
+    z-index:1;
+    background-color: black;
+}
+
+.shortsbutton {
+    background-color: rgb(51, 49, 49);
+    color:white;
+}

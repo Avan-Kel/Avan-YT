@@ -1,0 +1,99 @@
+.Togglebar {
+  z-index: 6;
+
+  display: flex;
+  border-bottom-left-radius: 20px;
+}
+
+.Search {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: rgb(14, 13, 13);
+  padding: 6px;
+  padding-left: 15px;
+  border: 1px solid rgb(43, 40, 40);
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+/* Button styling starts here */
+.BT1 {
+  color: white;
+  background-color: black;
+  border: 0px solid black;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  align-items: center;
+ 
+
+}
+.BT1:hover {
+  cursor: pointer;
+}
+
+.BT2 {
+  color: white;
+  background-color: rgb(37, 35, 35);
+  font-size: 23px;
+  border: 1px solid rgba(39, 38, 38, 0.363);
+  margin-left: 18px;
+  margin-top: 10px;
+  height: 42px;
+  width: 42px;
+  border-radius: 42px;
+}
+.BT2:hover {
+  background-color: rgb(46, 44, 44);
+}
+
+.BT3 {
+  color: white;
+  background-color: rgb(14, 13, 13);
+  font-size: 30px;
+  border: 0px solid black;
+
+  margin-top: 10px;
+  height: 45px;
+  width: 45px;
+  border-radius: 45px;
+  padding: 5px;
+}
+.BT3:hover {
+  background-color: rgb(46, 44, 44);
+}
+
+.BT4 {
+  color: white;
+  background-color: rgb(14, 13, 13);
+  font-size: 30px;
+  border: 0px solid black;
+  margin-top: 10px;
+  height: 45px;
+  width: 45px;
+  border-radius: 45px;
+  padding: 5px;
+}
+.BT4:hover {
+  background-color: rgb(46, 44, 44);
+}
+/* Button styling ends here */
+
+/* Image styling starts here */
+.ComImg {
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  margin-top: 10px;
+}
+.ComImg:hover {
+  cursor: pointer;
+}
+
+.HomeImg {
+  margin-top: 6px;
+  width: 160px;
+}
+.HomeImg:hover {
+  cursor: pointer;
+}
+/* Image styling ends here */
