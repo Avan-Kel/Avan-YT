@@ -8,7 +8,7 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 
 export default function Toggle() {
   return (
-    <div className="Togglebar HP1">
+    <div className="Togglebar HP1 rounded-lg">
       <div
         style={{
           height: "70px",
@@ -64,7 +64,7 @@ export default function Toggle() {
       </div>
 
       <div>
-        <button className="BT3 cusm:ml-[110px] cusm:text-[15px] md:ml-[50px] umlg:ml-[80px] lg:ml-[80px] xl:ml-[100px] flex items-center justify-center">
+        <button className="BT3 cusm:ml-[110px] cusm:text-[15px] md:ml-[50px] umlg:ml-[80px] lg:ml-[80px] xlg:ml-[300px] xl:ml-[110px] flex items-center justify-center">
           <MdOutlineVideoCall />
         </button>
       </div>

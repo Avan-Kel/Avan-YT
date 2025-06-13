@@ -458,7 +458,7 @@ function Home() {
       </div>
 
       {/* Video Grid */}
-      <div className="pt-[130px]">
+      <div className="pt-[130px] lg:ml-[100px]">
         {" "}
         {/* Push content below the fixed Toggle+Buttons bar */}
         <div className="flex flex-wrap ">
@@ -471,7 +471,7 @@ function Home() {
                 return (
                   <div
                     key={youTUBE.video}
-                    className="w-full cusm:w-[100%] sm:w-[45%] sm:m-[20px] lg:ml-[100px] umlg:w-[30.5%] lg:w-[22.4%] xl:w-[24.4%] umlg:ml-[10px] md:w-[47.3%] md:m-[10px] bg-[#0e0d0d] mb-5 rounded-lg box-border "
+                    className="w-full cusm:w-[100%] sm:w-[45%] sm:m-[20px]  umlg:w-[30.5%] lg:w-[31.1%] xl:w-[31.3%] umlg:ml-[10px] md:w-[47.3%] md:m-[10px] bg-[#0e0d0d] mb-5 rounded-lg box-border "
                   >
                     <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
                       <iframe
